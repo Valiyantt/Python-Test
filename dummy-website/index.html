@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dummy Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <img src="logo.svg" alt="Logo" class="logo">
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to the Dummy Website</h1>
+      <p>Simple static site scaffold for demos and testing.</p>
+      <button id="cta">Show message</button>
+    </section>
+
+    <section id="features" class="cards">
+      <article class="card">
+        <h3>Fast</h3>
+        <p>Lightweight and responsive.</p>
+      </article>
+      <article class="card">
+        <h3>Simple</h3>
+        <p>Easy to modify and extend.</p>
+      </article>
+      <article class="card">
+        <h3>Portable</h3>
+        <p>Run anywhere with a static server.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div id="status" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Dummy Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
